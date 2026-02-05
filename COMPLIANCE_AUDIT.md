@@ -1,0 +1,7 @@
+# Compliance Audit Report
+
+**Target:** https://characteranalysis.io/
+**Date:** 2026-02-05T15:16:34Z
+
+## Analysis
+{"score":15,"status":"Non-Compliant","summary":"The audit identifies a systemic failure to implement mandatory transparency disclosures for generative AI interactions and synthetic content marking. The platform lacks the requisite technical indicators and user notifications mandated for high-fidelity synthetic media providers.","violations":[{"article":"50(1)","status":"FAIL","severity":"CRITICAL","evidence":"The interface fails to provide a clear and prominent notice informing natural persons that they are interacting with an AI system.","remediation":"Integrate a persistent UI element or initial disclosure modal informing users of the AI-mediated nature of the interaction."},{"article":"50(2)","status":"FAIL","severity":"CRITICAL","evidence":"Metadata and content dump lack evidence of machine-readable watermarking or technical metadata for 'high-fidelity character consistency' outputs.","remediation":"Implement technical solutions to ensure all synthetic image and text outputs are marked in a machine-readable format and detectable as artificially generated or manipulated."}],"financial_risk":"Administrative fines of up to 15,000,000 EUR or 3 percent of total worldwide annual turnover for the preceding financial year, whichever is higher, pursuant to Article 99(4)."}
